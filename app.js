@@ -69,6 +69,42 @@
 // var lName = prompt('Enter your last name:');
 // var fullName = fName.concat(lName)
 // alert(`Welcome ${fullName}`);
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 07--------------------------------//
+// Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad”
+//  and display the result in your browser?
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
+// var cityName = 'Hyderabad';
+// var replaceCity = cityName.replace('Hyder','Islam');
+// console.log(`${cityName} has been change to ${replaceCity}`);
+
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 08--------------------------------//
+// 8. Write a program to replace all occurrences of
+//  “and” in the string with “&” and display the result in your browser.
+//  var message = “Ali and Sami are best friends. They play cricket and football together.”;
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
+//  var message = 'Ali and Sami are best friends. They play cricket and football together';
+// var replaceMessage = message.replace(/and/g,'&');
+// console.log(replaceMessage);
+
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 09--------------------------------//
+// 9. Write a program that converts a string “472” to a number 472. 
+// Display the values & types in your browser.
+
+// var stringValue = '472';
+// var numValue = parseInt(stringValue);
+// console.log(`Type of ${stringValue} is ${typeof(stringValue)}`);
+// console.log(`Type of ${numValue} is ${typeof(numValue)}`);
+
 
 
 
