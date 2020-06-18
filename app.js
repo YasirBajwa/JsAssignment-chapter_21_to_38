@@ -99,22 +99,63 @@
 //-------------------------Chapter 21 task 09--------------------------------//
 // 9. Write a program that converts a string “472” to a number 472. 
 // Display the values & types in your browser.
-
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
 // var stringValue = '472';
 // var numValue = parseInt(stringValue);
 // console.log(`Type of ${stringValue} is ${typeof(stringValue)}`);
 // console.log(`Type of ${numValue} is ${typeof(numValue)}`);
 
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 10--------------------------------//
+// 10. Write a program that takes user input. Convert and show the input in capital letters.?
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
 
+// var nameInput = 'yasir';
+// var changeCase = nameInput.toUpperCase();
+// console.log(nameInput);
+// console.log(changeCase);
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 11--------------------------------//
+// 10. Write a program that takes user input. Convert and show the input in title.?
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
 
+var nameInput = 'yasir';
+var firstIndex = nameInput.slice(0,1);
+firstIndex = firstIndex.toUpperCase();
+var otherIndex = nameInput.slice(1);
+console.log(nameInput);
+console.log(firstIndex+otherIndex);
+// console.log(nameInput);
+// console.log(changeCase);
 
-
-
-
-
-
-
-
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 12--------------------------------//
+// 12. Write a program that converts the variable num to string. var num = 35.36 ;
+//  Remove the dot to display “3536” display in your browser.
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
+// var num = 35.36;
+// var numString = num + '';
+// var numReplace = numString.replace('.','');
+// var numInt = parseInt(numReplace);
+// console.log(num);
+// console.log(numInt);
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21 task 13--------------------------------//
+// 13. Write a program to take user input and store username in a variable.
+//  If the username contains any special symbol among [@ . , !],
+//  prompt the user to enter a valid username. For character codes of [@ 
 
 
 
