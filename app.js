@@ -593,3 +593,24 @@
 // var num = 1000*60;
 // var diff = z / num;
 // console.log(`Total seconds from Dec 05 ,2015 are : ${Math.floor(diff)}`);
+
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//--------------------------------Chapter 31-34 task 11--------------------------------------
+//11.Create a Date object for the current date and time. Extract the hours,
+//  reset the date object an hour ahead and finally display the date object in your browser.
+//-------------------------------------------------------------------------------------------
+//-----------------------------------solution------------------------------------------------
+//-------------------------------------------------------------------------------------------
+
+// var d = new Date();
+// d.setHours(d.getHours() - 1);
+// console.log(d);
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//--------------------------------Chapter 31-34 task 12--------------------------------------
+// 12. Write a program that creates a date object and show the date in an
+//  alert box that is reset to 100 years back?
+var d = new Date();
+d.setFullYear(d.getFullYear() - 100);
+console.log(`100 years back there was a time i.e is ${d}`);
