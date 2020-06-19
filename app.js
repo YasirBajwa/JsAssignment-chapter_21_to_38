@@ -523,7 +523,7 @@
 // var newDate = new Date();
 // var millSeconds = newDate.getTime();
 // var d = 1000*60*60
-// console.log(`Total minutes from 1970 is :${Math.floor(millSeconds / d)} minute`);
+// console.log(`Current date is : ${newDate} and total miliseconds from 1970 is ${millSeconds} and Total minutes from 1970 is :${Math.floor(millSeconds / d)} minute`);
 //---------------------------------------------------------------------------------------------
 //-----------------------------------solution--------------------------------------------------
 //--------------------------------------------------------------------------------------------- 
