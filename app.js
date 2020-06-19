@@ -611,6 +611,9 @@
 //--------------------------------Chapter 31-34 task 12--------------------------------------
 // 12. Write a program that creates a date object and show the date in an
 //  alert box that is reset to 100 years back?
-var d = new Date();
-d.setFullYear(d.getFullYear() - 100);
-console.log(`100 years back there was a time i.e is ${d}`);
+//-------------------------------------------------------------------------------------------
+//-----------------------------------solution------------------------------------------------
+//-------------------------------------------------------------------------------------------
+// var d = new Date();
+// d.setFullYear(d.getFullYear() - 100);
+// console.log(`100 years back there was a time i.e is ${d}`);
