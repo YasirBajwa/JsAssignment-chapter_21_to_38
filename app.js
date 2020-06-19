@@ -181,23 +181,80 @@
 // var userSearch = prompt('Enter the product name');
 
 
-// for ( var i = 0 ; i < listItems.length ; i++) {
-    
-//     if ( userSearch === listItems[i]) {
-//         alert('Product match');
-//         break;
-//     }
-//     else{
-//         alert('not match');
-//         break;
-//     }
+// var listItems = ['cake', 'apple pie', 'cookie', 'chips', 'patties']
+// var userSearch = prompt('Enter the product name');
+// userSearch = userSearch.toLowerCase();
+// if (listItems.indexOf(userSearch) >= 0){
+//   console.log('Match');
+// }
+// else{
+//   console.log('not match');
 // }
 
-// var userSearchUpper = userSearch.toUpperCase();
+//---------------------------------------------------------------------------//
+//---------------------------------------------------------------------------//
+//-------------------------Chapter 21-25 task 14--------------------------------/
+// 15. Write a program to take password as an input from user.
+//  The password must qualify these requirements: 
+//    a.  It should contain alphabets and numbers 
+//    b.  It should not start with a number
+//    c.  It must at least 6 characters long 
+//        If the password does not meet above requirements,
+//      prompt the user to enter a valid password.
+//      For character codes of a-z, A-Z & 0-9, refer to ASCII table at the end of this document.
+//---------------------------------------------------------------------------//
+//--------------------------solution-----------------------------------------//
+//--------------------------------------------------------------------------//
 
-// else if(listItems[i] == userSearchUpper){
-//     alert('Product match');
+// var userPassword = prompt('Enter your password');
+// var arrayValue = userPassword.split('');
+// console.log(arrayValue);
+
+// asciiKeys = [];
+// for (var i = 0; i < arrayValue.length; i++){
+//    asciiKeys.push(arrayValue[i].charCodeAt(0));
+
+
 // }
+// console.log(asciiKeys);
+// if(asciiKeys == ''){
+//     alert( 'Please write the password');
+
+// }
+// else if(asciiKeys[i] > 47 && asciiKeys[i] < 58){
+//     alert('Password contain numbers ');
+//     // break;
+// }
+
+
+// console.log(asciiKeys[2]);
+
+//    if(asciiKeys[i] < 58 && asciiKeys[i] > 47){
+//     alert('Password  contain numbers');
+//     continue;
+//  }
+//  else if(asciiKeys[i] < 65 && asciiKeys[i] > 90){
+//      alert('Password contain the Uppercase letter')
+//    continue;
+//  }
+//  else if(asciiKeys[i] < 97 && asciiKeys[i] > 122){
+//     alert('Password contain the lowercase letter');
+//     continue
+// }
+// else{
+//     alert('Password should contain upperCase,lowerCase and number');
+//     break;
+// }
+ 
+// }
+
+
+
+
+
+
+
+
 
 
 
@@ -240,3 +297,75 @@
 // var stringFind = string.match(/the/g);
 // stringFind = stringFind.length;
 // console.log(`The word The occur at ${stringFind} times`);
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//-------------------------Chapter 26-30-------------------------------------------------------
+//-------------------------Chapter 26-30 task 01 ----------------------------------------------
+// 1. Write a program that takes a positive integer from user &
+//     display the following in your browser.
+//  a. number 
+//  b. round off value of the number
+//  c. floor value of the number
+//  d. ceil value of the number
+//---------------------------------------------------------------------------------------------
+//--------------------------solution-----------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+// var userNumber = +prompt("Enter a decimal number like 3.454");
+// console.log(userNumber);
+// var roundNumber = Math.round(userNumber);
+// console.log(roundNumber);
+// var floorValue = Math.floor(userNumber);
+// console.log(floorValue);
+// var ceilValue = Math.ceil(userNumber);
+// console.log(ceilValue);
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//-------------------------------Chapter 26-30 task 02-----------------------------------------
+// 2. Write a program that takes a negative floating point number from user
+//    & display the following in your browser.
+//   a. number
+//   b. round off value of the number 
+//   c. floor value of the number
+//   d. ceil value of the number
+
+//---------------------------------------------------------------------------------------------
+//--------------------------solution-----------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+
+// var userNumber = +prompt("Enter a negative decimal number like -3.454");
+// console.log(userNumber);
+// var roundNumber = Math.round(userNumber);
+// console.log(roundNumber);
+// var floorValue = Math.floor(userNumber);
+// console.log(floorValue);
+// var ceilValue = Math.ceil(userNumber);
+// console.log(ceilValue);
+
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//-------------------------------Chapter 26-30 task 03-----------------------------------------
+// 3. Write a program that displays the absolute value of a number. 
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+//---------------------------------------------------------------------------------------------
+//--------------------------solution-----------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+
+// var userInput = +prompt('Enter a number for absolute value');
+// console.log(Math.abs(userInput))
+
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//-------------------------------Chapter 26-30 task 04-----------------------------------------
+// 4. Write a program that simulates a dice using random() method of JS Math class.
+//  Display the value of dice in your browser.:
+//---------------------------------------------------------------------------------------------
+//--------------------------solution-----------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+// var randomDice = Math.floor(6*Math.random())+1;
+// console.log(`random dice value is : ${randomDice}`)
+
+
