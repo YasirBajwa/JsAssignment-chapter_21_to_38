@@ -949,17 +949,16 @@
 //-------------------------------------Solution------------------------------------------------
 //--------------------------------------------------------------------------------------------
 
-// var getMax = function (str) {
-//  var max = 0,
-//      maxChar = '';
-//   str.split('').forEach(function(char){
-//     if(str.split(char).length > max) {
-//         max = str.split(char).length;
-//         maxChar = char;
-//      }
-//   });
-//   console.log() maxChar;
-// };
+// function test(string,letter) {
+//             var newString = string.split('');
+//             var myArray = [];
+//             for( var i = 0;  i < newString.length; i++ ){
+//                 newString[i] == letter ? myArray.push(newString[i]) : 'Nothing'
+//             }
+//             console.log(`The letter ${letter} occur ${myArray.length} time in strings`);
+
+// }
+// test('hello world of','o')
 
 
 //--------------------------------------------------------------------------------------------
