@@ -617,3 +617,66 @@
 // var d = new Date();
 // d.setFullYear(d.getFullYear() - 100);
 // console.log(`100 years back there was a time i.e is ${d}`);
+
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//--------------------------------Chapter 31-34 task 13--------------------------------------
+
+// 13. Write a program to ask the user about his age.
+//Calculate and show his birth year in your browser.
+//-------------------------------------------------------------------------------------------
+//-----------------------------------solution------------------------------------------------
+//-------------------------------------------------------------------------------------------
+// var userAge = new Date(prompt('Enter your age like 25'));
+// var userMili = userAge.getTime();
+
+// var today = new Date();
+// var todayMili= today.getTime();
+
+// var diff = todayMili - userMili;
+
+// var num = 1000*60*60*24*30*12;
+// var year = today.getFullYear();
+// // console.log(year)
+// var value = Math.floor(diff / num);
+// var accurateYear = year - value;
+// console.log(`Your Birth Year is ${accurateYear}`) 
+
+//------------------------------Second way-------------------------------------------------
+// var userAge = +prompt('Enter your age like 25');
+//  var today = new Date();
+//  var year = today.getFullYear();
+//  var accurateYear = year - userAge;
+// console.log(`Your Birth Year is ${accurateYear}`) 
+
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//--------------------------------Chapter 31-34 task 14--------------------------------------
+// 14. Write a program to generate your K-Electric bill in your browser.
+//  All the amounts should be rounded off to 2 decimal places.
+//  Display the following fields:
+//  a. Customer Name 
+//  b. Current Month
+//-------------------------------------------------------------------------------------------
+//-----------------------------------solution------------------------------------------------
+//-------------------------------------------------------------------------------------------
+// var userName = prompt('Enter Your name');
+// const monthNames = ["January", "February", "March", "April", "May", "June",
+//   "July", "August", "September", "October", "November", "December"
+// ];
+// const d = new Date();
+// var month= monthNames[d.getMonth()];
+// // console.log(month)
+// var randomUnits = Math.floor(300*Math.random());
+// var price = randomUnits * 10;
+// document.write(`User Name : ${userName} <br/>
+//                 Current Month: ${month} <br/>
+//                 Number of Units :${randomUnits} <br/>
+//                 Price of one Unit: 10 <br/>
+//                 Net Amount Payable(with in due date) ${price} <br/>
+//                 Late Payment charges 350 <br/> 
+//                 Gross Payment after due date  ${price+350} `)
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//----------------------End of Task chapter 31 to 34-------------------------------------------
+//--------------------------------------------------------------------------------------------
