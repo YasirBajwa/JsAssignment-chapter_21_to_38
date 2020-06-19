@@ -388,5 +388,44 @@
 //---------------------------------------------------------------------------------------------
 //--------------------------solution-----------------------------------------------------------
 //---------------------------------------------------------------------------------------------
+
 // var randomNum = Math.floor(100*Math.random())+1;
 // console.log(`Random number between 1 and 100 is  : ${randomNum}`);
+
+//---------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+//-------------------------------Chapter 26-30 task 07-----------------------------------------
+
+// 7. Write a program that asks the user about his weight.
+//  Parse the user input and display his weight in your browser. Possible user inputs can be:
+//  a. 50 
+//  b. 50kgs 
+//  c. 50.2kgs 
+//  d. 50.2kilograms
+//---------------------------------------------------------------------------------------------
+//--------------------------solution-----------------------------------------------------------
+//---------------------------------------------------------------------------------------------
+
+        //    var userInput = prompt('Enter your weight like  78 kg'); 
+        //     var matches = userInput.match(/(\d+)/); 
+              
+        //     if (matches) { 
+        //                  console.log(` Your weigth is ${matches[0]} killogram`); 
+        //     }
+           
+//--------------------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------------------
+//-------------------------------Chapter 26-30 task 08----------------------------------------
+// 8. Write a program that stores a random secret number from 1 to 10 in a variable.
+//  Ask the user to input a number between 1 and 10.
+//  If the user input equals the secret number, congratulate the user
+
+// var randomNumber = Math.floor(10*Math.random()+1);
+// // console.log(randomNumber);
+// var userInput = +prompt('Enter a number between 1 and 10');
+// if(userInput == randomNumber){
+//     console.log('Congratulation you enter the guessed number');
+// }
+// else{
+//     console.log('Try again');
+// }
